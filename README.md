@@ -27,3 +27,5 @@ Jira is also used for timetracking.
 ## Global command in mac to start the tool
 I've registered the "todo" command in my `~/.bash_profile` as a function. You could add this line to make this globally available in your terminal: 
 `function todo() { php full-path-to-the-project/console.php ;}`
+
+Dont' forget to run `source ~/.bash_profile` afterwards, otherwise this won't work :) 
